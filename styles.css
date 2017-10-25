@@ -162,7 +162,27 @@ h3
   margin-left:20px;
   margin-top:25px;
 }
-#nbold
+#nbold1
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold2
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold3
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold4
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold5
 {
   font:bold 20px/30px arial, sans-serif;
   margin-left:25px;
