@@ -1,0 +1,165 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start the Project 2 CSS */
+/* NAV bar, Title CSS*/
+
+body
+{
+  background-color: #000000;
+}
+ .title
+{
+  text-align: center;
+  margin-top:20px;
+  font:bold 50px/70px Bookman Old Style;
+  color: #FFFFFF;
+  font-variant: small-caps;
+ }
+ 
+ .table
+{
+  position: relative;
+  margin-top:40px;
+  margin-bottom:60px;
+  margin-left:20px;
+  margin-right:20px;
+  width:95%;
+  height: 80px;
+  color: #FFFFFF;
+ }
+ td
+ {
+  border: 1px solid #FFFFFF;
+ }
+ tr
+ {
+  border: 2px solid #ADD8E6;
+ }
+ 
+#pic
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 40px 40px 40px;
+  padding: 20px;
+  border: 2px solid #ADD8E6;
+}
+
+tr:hover 
+ {
+  background-color: #FFA500;
+ }
+#name
+{
+   border-bottom: 5px solid red;
+  font:bold 30px/50px arial, sans-serif;
+  margin-top:55px;
+  margin-bottom:55px;
+ 
+}
+#mass
+{
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#diameter
+{
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#density
+{ 
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#velocity
+{ 
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#distance
+{ 
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#rotation
+{ 
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#revolution
+{ 
+  font:30px/50px Trebuchet MS, sans-serif;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+sup { 
+  vertical-align: 10px;
+  font-size: smaller;
+}
+p
+{
+  margin-top:400px;
+}
+
