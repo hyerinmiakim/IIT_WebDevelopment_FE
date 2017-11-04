@@ -58,14 +58,16 @@ table {
     width:100%;
     margin-bottom: 10px;
 }
-
+#menu li {
+	display:inline;
+}
 #menu a {
-        display: block;
     color: #FAF0E6;
     text-align: center;
-    padding: 10px 16px;
+    padding: 0px 16px;
     text-decoration:none;
     font:20px/20px Courier, Monospace;
+    float:left;
 }
 #menu a:hover {
     background-color: #FFA500
