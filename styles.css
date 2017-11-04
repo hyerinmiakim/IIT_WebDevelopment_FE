@@ -161,6 +161,7 @@ h3
   font:bold 25px/30px arial, sans-serif;
   margin-left:20px;
   margin-top:25px;
+  width: 70%;
 }
 #nbold1
 {
@@ -192,6 +193,7 @@ h3
   text-align:right;
   font:20px/30px arial, sans-serif;
   margin-right:20px;
+  float:right; 
 }
 #job
 {
