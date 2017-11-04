@@ -47,7 +47,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Start the Project 2 CSS */
 /* NAV bar, Title CSS*/
 #menu {
@@ -81,7 +80,7 @@ table {
  .mtitle
 {
   text-align: center;
-  margin-top:20px;
+  margin-top:40px;
   font:bold 40px/50px Comic Sans, Cursive;
  }
  .smalltitle
