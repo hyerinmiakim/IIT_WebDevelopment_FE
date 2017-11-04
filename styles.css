@@ -64,7 +64,7 @@ table {
 #menu a {
     color: #FAF0E6;
     text-align: center;
-    padding: 0px 16px;
+    padding: 10px 16px;
     text-decoration:none;
     font:20px/20px Courier, Monospace;
     float:left;
@@ -82,7 +82,7 @@ table {
  .mtitle
 {
   text-align: center;
-  margin-top:150px;
+  margin-top:10px;
   font:bold 40px/70px Comic Sans, Cursive;
  }
  .smalltitle
