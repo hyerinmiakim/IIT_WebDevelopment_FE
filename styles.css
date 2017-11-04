@@ -51,12 +51,10 @@ table {
 /* Start the Project 2 CSS */
 /* NAV bar, Title CSS*/
 #menu {
-    overflow: hidden;
     background-color: #FA8072;
     position: fixed;
     top: 0;
     width:100%;
-    margin-bottom: 10px;
 }
 #menu li {
 	display:inline;
@@ -83,7 +81,7 @@ table {
 {
   text-align: center;
   margin-top:10px;
-  font:bold 40px/70px Comic Sans, Cursive;
+  font:bold 40px/50px Comic Sans, Cursive;
  }
  .smalltitle
 {
