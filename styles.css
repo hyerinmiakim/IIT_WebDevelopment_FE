@@ -175,6 +175,17 @@ table {
   font: 20px/20px Courier, Monospace;
   text-align: center;
 }
+#pic2
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 10px 20px;
+  padding: 20px;
+  border: 10px dashed #ADD8E6;
+  font: 20px/20px Courier, Monospace;
+  text-align: center;
+}
+
 
 /* resume.html*/
 h3
@@ -216,7 +227,22 @@ h3
   margin-right:20px;
   float:right; 
 }
-#job
+#job1
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#job2
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#job3
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#job4
 {
   font:bold 15px/30px arial, sans-serif;
   margin-left:25px;
