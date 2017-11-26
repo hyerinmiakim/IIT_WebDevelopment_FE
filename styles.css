@@ -51,8 +51,8 @@ table {
 /* NAV bar, Title CSS*/
 .menu {
     background-color: #FA8072;
-    /*position: fixed;
-    top: 0;
+    position: fixed;
+    /*top: 0;
     width:100%;*/
     margin-bottom:30px;
 	margin: auto;
@@ -240,10 +240,10 @@ h3
 
 ul li
 {
-  list-style-type:square;
+  list-style-type:none;
 }
 ul{
-  text-align:left;
+ /* text-align:left;*/
   margin-left:50px;
   margin-top:2px;  
   margin-bottom:2px;
