@@ -143,6 +143,16 @@ table {
   margin-bottom: 100px;
 }
 /* photo.html*/
+ #map {
+        height: 400px;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        border: 10px dotted #FFA500;
+        font: 20px/20px Courier, Monospace;
+        text-align: center;
+       }
 #intropic
 {
   overflow: auto;
