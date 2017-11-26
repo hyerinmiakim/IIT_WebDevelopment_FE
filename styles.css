@@ -51,28 +51,29 @@ table {
 /* NAV bar, Title CSS*/
 .menu {
     background-color: #FA8072;
-    position: fixed;
+    /*position: fixed;
     top: 0;
-    width:100%;
+    width:100%;*/
     margin-bottom:30px;
 	margin: auto;
-    text-align:center;
-    align-content:center;
+    /*text-align:center;
+    align-content:center;*/
 	list-style-type: none;
 	overflow: hidden;
 }
 .menu ul li {
+	text-align:center;
+    align-content:center;
 	display: inline-block; 
 	 padding: 0 16px;
 	 list-style-type: none;
-	float: right;
+	
 }
 .menu ul li a {
     color: #FAF0E6;
     text-align: center;
     text-decoration:none;
     font:20px/20px Courier, Monospace;
-    text-align:center;
     align-content:center;
     width:auto;
 }
