@@ -49,33 +49,46 @@ table {
 }
 /* Start the Project 2 CSS */
 /* NAV bar, Title CSS*/
-#menu {
-    background-color: #FA8072;
-    position: fixed;
-    top: 0;
-    width:100%;
-    margin-bottom:30px;
-}
-#menu li {
-	display:inline;
-}
-#menu a {
-    color: #FAF0E6;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration:none;
-    font:20px/20px Courier, Monospace;
-    float:left;
-}
-#menu a:hover {
+.menu { 
+    	overflow: hidden; 
+	float:left;
+   	background-color: #FA8072; 
+	height:50px;
+    	position: fixed; 
+	margin: 20px 0;
+    	top: 0; 
+    	width:100%; 
+    	margin-bottom: 10px;
+} 
+.menu a { 
+       display: block; 
+    	color: #FAF0E6; 
+    	text-align: center; 
+ 	align-content:center;
+	padding: 10px 16px;
+    	text-decoration:none; 
+   	font:20px/20px Courier, Monospace; 
+} 
+
+.menu a:hover {
     background-color: #FFA500
 }
-#menu ul
+
+.menu ul
 {
-  list-style:none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  	list-style-type:none;
+  	margin:0;
+  	padding: 0;
+  	overflow: hidden;
+	text-align:center;
+	position:relative;
+}
+
+.menu li {
+    margin:0 20px;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
 }
  .mtitle
 {
