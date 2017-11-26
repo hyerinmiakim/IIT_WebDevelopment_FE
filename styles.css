@@ -61,7 +61,7 @@ table {
 	overflow: hidden;
 }
 #menu ul li {
-	display:inline;
+	display: inline-block; 
 }
 #menu ul li a {
     color: #FAF0E6;
