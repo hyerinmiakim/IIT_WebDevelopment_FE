@@ -50,7 +50,18 @@ table {
 /* Start the Project 2 CSS */
 /* NAV bar, Title CSS*/
 #menu {
-    background-color: #FA8072;
+	position: fixed;
+
+  top: 0px;
+
+  background-color: rgba(177, 177, 177, 0.46);
+
+  background: linear-gradient(90deg, rgba(76, 40, 40, 1), rgba(177, 177, 177, 1) 40%);
+
+  width: 100%;
+
+  height: 52px;
+   /* background-color: #FA8072;
     position: fixed;
     top: 0;
     width:100%;
@@ -58,7 +69,7 @@ table {
     text-align:center;
     align-content:center;
 	list-style-type: none;
-	overflow: hidden;
+	overflow: hidden;*/
 }
 #menu ul li {
 	display:inline;
