@@ -35,7 +35,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+	blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -52,15 +52,15 @@ table {
 .menu { 
     overflow: hidden; 
 
-
+	float:left;
  
     background-color: #FA8072; 
 
-
+height:20px;
  
     position: fixed; 
 
-
+margin: 10px 0;
  
     top: 0; 
 
@@ -110,10 +110,23 @@ padding: 10px 16px;
 }
 .menu ul
 {
-  list-style:none;
-  margin-left: 50%;
+  list-style-type:none;
+  margin:0;
   padding: 0;
   overflow: hidden;
+	text-align:center;
+	position:relative;
+}
+.menu li {
+
+    margin:0 20px;
+
+    display: inline-block;
+
+    list-style-type: none;
+
+    overflow: hidden;
+
 }
  .mtitle
 {
