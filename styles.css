@@ -57,11 +57,13 @@ table {
     margin-bottom:30px;
     text-align:center;
     align-content:center;
+	list-style-type: none;
+	overflow: hidden;
 }
-#menu li {
+#menu ul li {
 	display:inline;
 }
-#menu a {
+#menu ul li a {
     color: #FAF0E6;
     text-align: center;
     padding: 10px 16px;
