@@ -111,7 +111,7 @@ table {
 .menu ul
 {
   list-style:none;
-  margin: 0;
+  margin-left: 50%;
   padding: 0;
   overflow: hidden;
 }
