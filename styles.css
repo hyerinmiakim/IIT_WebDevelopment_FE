@@ -49,21 +49,22 @@ table {
 }
 /* Start the Project 2 CSS */
 /* NAV bar, Title CSS*/
-#menu {
+.menu {
     background-color: #FA8072;
     position: fixed;
     top: 0;
     width:100%;
     margin-bottom:30px;
+	margin: auto;
     text-align:center;
     align-content:center;
 	list-style-type: none;
 	overflow: hidden;
 }
-#menu ul li {
+.menu ul li {
 	display: inline-block; 
 }
-#menu ul li a {
+.menu ul li a {
     color: #FAF0E6;
     text-align: center;
     padding: 10px 16px;
@@ -73,10 +74,10 @@ table {
     align-content:center;
     width:auto;
 }
-#menu a:hover {
+.menu a:hover {
     background-color: #FFA500
 }
-#menu ul
+.menu ul
 {
   list-style:none;
   margin: 0;
