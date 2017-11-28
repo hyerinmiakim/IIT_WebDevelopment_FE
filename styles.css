@@ -54,7 +54,7 @@ table {
 	float:left;
    	background-color: #FA8072; 
 	height:50px;
-    	position: fixed; 
+    	position: relative; 
 	margin: 20px 0;
     	top: 0; 
     	width:100%; 
