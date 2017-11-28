@@ -1,5 +1,4 @@
- <script>
-      function initMap() {
+function initMap() {
         var school = {lat: 37.375140, lng: 126.632782};
         var beerfestival = {lat: 37.405669, lng: 126.635583};
         var songdo = {lat: 37.392605, lng:126.638687};
@@ -20,4 +19,4 @@
           map: map
         });
       }
-    </script>
+
