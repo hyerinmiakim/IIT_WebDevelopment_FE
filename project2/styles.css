@@ -1,0 +1,291 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+	blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Start the Project 2 CSS */
+/* NAV bar, Title CSS*/
+.menu { 
+    overflow: hidden; 
+
+	float:left;
+ 
+    background-color: #FA8072; 
+
+height:50px;
+ 
+    position: fixed; 
+
+margin: 20px 0;
+ 
+    top: 0; 
+
+
+ 
+    width:100%; 
+
+
+ 
+    margin-bottom: 10px; 
+
+
+ 
+} 
+
+
+.menu a { 
+
+
+       display: block; 
+
+
+ 
+    color: #FAF0E6; 
+
+
+ 
+    text-align: center; 
+ align-content:center;
+
+ 
+    
+padding: 10px 16px;
+
+ 
+    text-decoration:none; 
+
+
+ 
+   font:20px/20px Courier, Monospace; 
+
+
+ 
+} 
+.menu a:hover {
+    background-color: #FFA500
+}
+.menu ul
+{
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+	text-align:center;
+	position:relative;
+}
+.menu li {
+
+    margin:0 20px;
+
+    display: inline-block;
+
+    list-style-type: none;
+
+    overflow: hidden;
+
+}
+ .mtitle
+{
+  text-align: center;
+  margin-top:40px;
+  font:bold 40px/50px Comic Sans, Cursive;
+ }
+ .smalltitle
+{
+  margin-top:40px;
+  margin-bottom:30px;
+  font:bold 30px/30px Comic Sans, Cursive;
+  color: #000080;
+ }
+
+/* index.html */
+#introduce 
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted #FFA500;
+  font: 20px/20px Courier, Monospace;
+  text-align: center;
+}
+#introduce2
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted #FFA500;
+  font: 20px/20px Courier, Monospace;
+  text-align: center;
+}
+#nightview 
+{
+  float: left;
+  margin: 0px 140px 0px 20px;
+}
+#daytime 
+{
+  float: left;
+  margin: 0px 0px 20px 20px;
+}
+/* photo.html*/
+#intropic
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 10px 20px;
+  padding: 20px;
+  border: 10px dashed #B0C4DE;
+  font: bold 25px/30px Courier, Monospace;
+  text-align: center;
+}
+#beers
+{
+  float: left;
+  margin: 0px 140px 20px 20px;
+  width: 700px;
+}
+#beers2
+{
+  float: left;
+  margin: 0px 50px 20px 20px;
+  width: 700px;
+}
+#pic
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 10px 20px;
+  padding: 20px;
+  border: 10px dashed #ADD8E6;
+  font: 20px/20px Courier, Monospace;
+  text-align: center;
+}
+#pic2
+{
+  overflow: auto;
+  width: 90%;
+  margin: 20px 20px 10px 20px;
+  padding: 20px;
+  border: 10px dashed #ADD8E6;
+  font: 20px/20px Courier, Monospace;
+  text-align: center;
+}
+/* resume.html*/
+h3
+{
+  font:bold 25px/30px arial, sans-serif;
+  margin-left:20px;
+  margin-top:25px;
+  width: 70%;
+}
+#nbold1
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold2
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold3
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold4
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#nbold5
+{
+  font:bold 20px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#address
+{
+  text-align:right;
+  font:20px/30px arial, sans-serif;
+  margin-right:20px;
+  float:right; 
+}
+#job1
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+#job2
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+
+#job3
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+
+#job4
+{
+  font:bold 15px/30px arial, sans-serif;
+  margin-left:25px;
+}
+
+ul li
+{
+  list-style-type:none;
+}
+ul{
+ text-align:center;
+  margin:auto;
+  font: 15px/30px arial, sans-serif;
+}
+
